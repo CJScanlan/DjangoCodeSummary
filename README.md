@@ -157,5 +157,5 @@ This project taught me a wide array of lessons, including:
     * Organizing active and completed user stories
     * Creating push and pull requests to merge with the master branch
     * Creating working branches for version control
-* Fixing and solving bugs, utilizing peers and research online.
+* Fixing and solving bugs, consulting peers and researching online.
 * Becoming aquainted with Django Framework utilization
