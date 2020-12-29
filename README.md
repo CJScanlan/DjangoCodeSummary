@@ -8,7 +8,7 @@ This was a great opportunity to learn the Django Framework, and to become accust
 
 ## Building an App
 To start, I created an app through Django and registered it within the main project. I created my base and home templates, then added a function to render these pages. Lastly, I created a urls file and registered it within the main app. 
-* Home Page
+* [Homepage](https://github.com/CJScanlan/DjangoCodeSummary/blob/main/Code%20Snippets/InitialHomepage.png)
 
 
 ## Creating a Model and Form
