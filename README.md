@@ -8,16 +8,18 @@ This was a great opportunity to learn the Django Framework, and to become accust
 
 ## Building an App
 To start, I created an app through Django and registered it within the main project. I created my base and home templates, then added a function to render these pages. Lastly, I created a urls file and registered it within the main app. 
-* Home Page
+* [Homepage](https://github.com/CJScanlan/DjangoCodeSummary/blob/main/Code%20Snippets/InitialHomepage.png)
 
 
 ## Creating a Model and Form
 I created a Trails model and defined its characteristics- name, location, difficulty, length, camping, image, description. For location, I provided an alphabetically ordered tuple of states to choose from. For difficulty, I provided a tuple of 'Easy', 'Medium', and 'Hard'. A tuple was the best choice, since it maintained a set order of the items.
 To create a user input form, I created a new forms.py file and utilized Django widgets to display choices on the user end. I made a template page for the form, then I created a views function to render this page and connected it in my urls file.
 
-* Model
-* Form
-* HTML page
+* [Model](https://github.com/CJScanlan/DjangoCodeSummary/blob/main/Code%20Snippets/Model.png)
+* [Form](https://github.com/CJScanlan/DjangoCodeSummary/blob/main/Code%20Snippets/Form.png)
+* [Form Template](https://github.com/CJScanlan/DjangoCodeSummary/blob/main/Code%20Snippets/FormTemplate.png)
+* [Form Page](https://github.com/CJScanlan/DjangoCodeSummary/blob/main/Code%20Snippets/HTMLForm.png)
+* [Location Tuple](https://github.com/CJScanlan/DjangoCodeSummary/blob/main/Code%20Snippets/LocationTuple.png)
 
 ### Form views function
 ```python
@@ -37,9 +39,8 @@ def create_trail(request):
 
 ## Displaying Items in the Database
 I created a template page to display all the trails in the database, and linked the trail name to its details. I included pagination to limit the amount of trails to 10 per page, and also included a search bar to find trails by name or location. The search bar lead to a new template page, displaying items in the database that matched the user's input for location or name. 
-* Index Page
-* Search Results
-* Template Code
+* [Index Page](https://github.com/CJScanlan/DjangoCodeSummary/blob/main/Code%20Snippets/Index.png)
+* [Search Results](https://github.com/CJScanlan/DjangoCodeSummary/blob/main/Code%20Snippets/SearchResults.png)
 
 ### Views function for pagination and rendering index
 ```python
@@ -111,7 +112,7 @@ def search_results(request):
 
 ## Displaying Details and Edit/Delete Functions
 Upon clicking the trail name in the index, a details page appears with functions to edit and delete the trail. A primary key value was used to link the specified trail to its details within the database. 
-* Details Page
+* [Details Page]()
 * Edit/Delete
 ### Display Details Function
 ```python
