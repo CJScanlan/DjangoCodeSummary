@@ -112,8 +112,8 @@ def search_results(request):
 
 ## Displaying Details and Edit/Delete Functions
 Upon clicking the trail name in the index, a details page appears with functions to edit and delete the trail. A primary key value was used to link the specified trail to its details within the database. 
-* [Details Page]()
-* Edit/Delete
+* [Details Page](https://github.com/CJScanlan/DjangoCodeSummary/blob/main/Code%20Snippets/Details.png)
+* [Edit/Delete](https://github.com/CJScanlan/DjangoCodeSummary/blob/main/Code%20Snippets/Edit.png)
 ### Display Details Function
 ```python
 def trail_details(request, pk):
